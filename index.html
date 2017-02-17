@@ -1,18 +1,28 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
   <head>
-    <meta charset="UTF-8">
-    
-    <title>Hangman Game</title>
-  </head>
+    <meta charset="utf-8">
+    <title>Basic Psychic Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/CSS/style.css">
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</head>
 
-  <body>
-
-  <script type="text/javascript" src="game.js"></script>
-
+<body>
+    <div class="container">
+    <header><strong>The Psychic Game</strong></header>
+    <br>
+    <div class="instr">
+    <nav>Guess what letter I'm thinking of</nav>
+    </div>
+    <br>
     <div id="game">
-      <p>Press any key to start the game!</p>
+        <p id="w">Wins: 0</p>
+        <P id="l">Losses: 0</P>
+        <p>Guesses Left: 9</p>
+        <p>Your Guesses so far:</p>
+    </div>
     </div>
 
-  </body>
+</body>
 </html>

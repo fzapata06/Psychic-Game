@@ -1,0 +1,29 @@
+body {
+	margin: 0;
+}
+
+.container {
+	font-weight: bolder;
+	text-align: center;
+}
+
+header {
+	font-size: 40px;
+}
+
+.instr {
+	font-size: 30px;
+	font-style: italic;
+}
+
+#game {
+	font-size: 35px;
+}
+
+#w {
+	color: blue;
+}
+
+#l {
+	color: red;
+}
